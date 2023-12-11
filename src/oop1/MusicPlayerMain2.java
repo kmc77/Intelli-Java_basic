@@ -8,15 +8,15 @@ public class MusicPlayerMain2 {
         on(data);
 
         //볼륨증가
-        volumeup(data);
-        volumeup(data);
+        volumeUp(data);
+        volumeUp(data);
 
         //볼륨 감소
-        volumedown(data);
+        volumeDown(data);
 
 
         //음악 플레이어 상태
-        state(data);
+        showStatus(data);
 
         //음악 플레이어 끄기
         off(data);
@@ -33,17 +33,17 @@ public class MusicPlayerMain2 {
         System.out.println("음악 플레이어를 종료합니다.");
     }
 
-    static void volumeup(MusicPlayerData data) {
+    static void volumeUp(MusicPlayerData data) {
         data.volume++;
         System.out.println("음악 플레이어 볼륨 증가");
     }
 
-    static void volumedown(MusicPlayerData data) {
+    static void volumeDown(MusicPlayerData data) {
         data.volume--;
         System.out.println("음악 플레이어 볼륨 감소");
     }
 
-    static void state(MusicPlayerData data) {
+    static void showStatus(MusicPlayerData data) {
         System.out.println("음악 플레이어 상태 확인");
         if (data.isOn) {
             System.out.println("음악 플레이어 ON, 볼륨:");
