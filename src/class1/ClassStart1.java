@@ -13,8 +13,8 @@ public class ClassStart1 {
         int student2Grade = 80;
 
 
-        System.out.println("이름: " + student1Name + "나이: " + student1Age + "나이: " + student1Grade);
-        System.out.println("이름: " + student2Name + "나이: " + student2Age + "나이: " + student2Grade);
+        System.out.println("이름: " + student1Name + "나이: " + student1Age + "성적: " + student1Grade);
+        System.out.println("이름: " + student2Name + "나이: " + student2Age + "성적: " + student2Grade);
 
     }
 }
